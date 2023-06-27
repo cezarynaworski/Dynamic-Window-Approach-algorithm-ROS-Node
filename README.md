@@ -10,3 +10,5 @@ After compile (Cmake), please run this script using this command:
 "YourProject" - your project name.	
 
 "Xcord" "Ycord" - destination point.	
+
+Work in progress. 
