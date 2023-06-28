@@ -81,7 +81,7 @@ public:
         position_y = msg->pose.pose.position.y;
         robot_theta = 2.0f * atan2(msg->pose.pose.orientation.z, msg->pose.pose.orientation.w);
 
-        ROSINFO("X=%f, Y=%f, Theta=%f", position_x, position_y, robot_theta);
+        ROS_INFO("X=%f, Y=%f, Theta=%f", position_x, position_y, robot_theta);
 
         degree_repair(robot_theta);
     }
