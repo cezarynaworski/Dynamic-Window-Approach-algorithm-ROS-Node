@@ -1,14 +1,6 @@
 # DWAPlaner
-Dynamic Window Approach	
+Dynamic Window Approach (DWA) algorithm implementation for ROS (Robot Operating System).
 
-The algorithm works on the ROS system and gazebo simulation.	
+You have to change the project name in CMakeLists.txt to name of your own project (Second line).
 
-After compile (Cmake), please run this script using this command:	
-
->"rosrun YourProject DWAPlaner Xcord Ycord".
-
-"YourProject" - your project name.	
-
-"Xcord" "Ycord" - destination point.	
-
-Work in progress. 
+The Algorithm requires parametrs regulation. 
